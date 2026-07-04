@@ -23,7 +23,7 @@ This tutorial has the general user in mind, meaning one router acting as the dia
 
 /interface bridge add comment="Dedicated Container Layer" name=br-container
 
-/interface veth add address=10.100.60.100/24 container-mac-address=3A:74:A7:16:E4:0E dhcp=no gateway=10.100.60.1 gateway6="" mac-address=3A:74:A7:16:E4:0D name=veth-dnscrypt
+/interface veth add address=10.100.60.100/24 gateway=10.100.60.1 name=veth-dnscrypt
 
 /interface bridge add bridge=br-container interface=veth-dnscrypt
 
