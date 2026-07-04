@@ -1,6 +1,6 @@
 MikroTik / DNSCrypt-proxy configuration template :
 
-While MikroTik does have a 'Use DoH Server' option under its DNS, it unfortunately only talks HTTPS/1.1, which is depreciated at this point and the current front-end on CipherDNS uses nghttp2, which only supports HTTPS/2 and also HTTPS/3 separately. The easiest way to implement secure, modern encrypted DNS on a MikroTik is by using a DNS resolver in container mode. For this, the current best/lightweight option is DNSCrypt-proxy as RAM is the hardest bottleneck on MikroTik routers.
+While MikroTik does have a 'Use DoH Server' option under its DNS, it unfortunately only talks HTTP/1.1, which is depreciated at this point and the current front-end on CipherDNS uses nghttp2, which only supports HTTP/2 and also HTTP/3 separately. The easiest way to implement secure, modern encrypted DNS on a MikroTik is by using a DNS resolver in container mode. For this, the current best/lightweight option is DNSCrypt-proxy as RAM is the hardest bottleneck on MikroTik routers.
 
 **Note: This is a client-side workaround. It solves the problem by running a compatible resolver on the router itself, rather than making the CipherDNS server side accept HTTP/1.1. If you’re also looking at server-side options (e.g. a TLS-terminating Layer 4 passthrough in front of DNSDist), treat this as an alternative approach, not a prerequisite. 
 
