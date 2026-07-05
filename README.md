@@ -24,7 +24,7 @@ Our dual-edge infrastructure pairs high-efficiency Nginx reverse-proxying for TC
 * **Stamp:** `sdns://AgcAAAAAAAAADTEwMi4yMTQuMTAuODIgsl8vNpZ_c5TwmTeIWzM_qjVtcZ_qzzjM6fA1UADz4XQXamIxLWRvaC5jaXBoZXJkbnMuY28uemEKL2Rucy1xdWVyeQ`
 
 ### 3. DNS-over-QUIC (DoQ)
-* **Address:** `quic://jb1-doq.cipherdns.co.za:784`
+* **Address:** `quic://jb1-doq.cipherdns.co.za:853`
 
 ### 4. DNSCrypt
 * **Provider:** `2.dnscrypt-cert.jb1.cipherdns.co.za`
@@ -43,7 +43,7 @@ Our dual-edge infrastructure pairs high-efficiency Nginx reverse-proxying for TC
 * **Stamp:** `sdns://AgcAAAAAAAAADjEwMi4yMDkuMjEuMTc2IN9Gmj6Z-sGI6kgHGCuJ-2IbQ7MV1jsrEVngkymImwm7F2N0MS1kb2guY2lwaGVyZG5zLmNvLnphCi9kbnMtcXVlcnk`
 
 ### 3. DNS-over-QUIC (DoQ)
-* **Address:** `quic://ct1-doq.cipherdns.co.za:784`
+* **Address:** `quic://ct1-doq.cipherdns.co.za:853`
 
 ### 4. DNSCrypt
 * **Provider:** `2.dnscrypt-cert.ct1.cipherdns.co.za`
