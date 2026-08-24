@@ -20,7 +20,7 @@ Our dual-edge infrastructure pairs high-efficiency Nginx reverse-proxying for TC
 
 ### 2. DNS-over-HTTPS (DoH)
 * **Address:** `https://ct1-doh.cipherdns.co.za/dns-query`
-* **Stamp:** `sdns://AgcAAAAAAAAADjEwMi4yMDkuMjEuMTc2IN9Gmj6Z-sGI6kgHGCuJ-2IbQ7MV1jsrEVngkymImwm7F2N0MS1kb2guY2lwaGVyZG5zLmNvLnphCi9kbnMtcXVlcnk`
+* **Stamp:** `sdns://AQcAAAAAAAAAEzEwMi4yMDkuMjEuMTc2Ojg0NDMgXnTgm6IgQnhUO3h_6tAlE0lQ5dXjfG2JmvSXCde6P6QjMi5kbnNjcnlwdC1jZXJ0LmN0MS5jaXBoZXJkbnMuY28uemE`
 
 ### 3. DNS-over-QUIC (DoQ)
 * **Address:** `quic://ct1-doq.cipherdns.co.za:853`
