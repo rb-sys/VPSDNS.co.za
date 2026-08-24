@@ -27,7 +27,7 @@ Our dual-edge infrastructure pairs high-efficiency Nginx reverse-proxying for TC
 
 ### 4. DNSCrypt
 * **Provider:** `2.dnscrypt-cert.ct1.cipherdns.co.za`
-* **Stamp:** `sdns://AQcAAAAAAAAAEzEwMi4yMDkuMjEuMTc2Ojg0NDMgXnTgm6IgQnhUO3h_6tAlE0lQ5dXjfG2JmvSXCde6P6QjMi5kbnNjcnlwdC1jZXJ0LmN0MS5jaXBoZXJkbnMuY28uemE`
+* **Stamp:** `sdns://AgcAAAAAAAAADjEwMi4yMDkuMjEuMTc2oP_qvxWZFJ9BK1V6rOVWoUSdlRS9JwllVzJr6hoRRXifINqSeh5K4YpnPElAq-H8Z9W88gNANHsHDKWZn1t_0K1ID2NpcGhlcmRucy5jby56YQovZG5zLXF1ZXJ5`
 
 ### 5. Anonymized DNS (Relay)
 * **Stamp:** `sdns://gRMxMDIuMjA5LjIxLjE3Njo4NDQz`
