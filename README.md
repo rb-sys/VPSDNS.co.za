@@ -13,26 +13,6 @@ Our dual-edge infrastructure pairs high-efficiency Nginx reverse-proxying for TC
 * **DNSSEC Validation:** Full cryptographic verification of upstream root zones to prevent DNS cache poisoning and man-in-the-middle hijacking.
 * **Unfiltered & Natural:** We do not implement content filtering, blocklists, or resolution modifications. You receive raw DNS responses.
 
-## ⚙️ Connection Endpoints & DNS Stamps ( Johannesburg-01 )
-
-### 1. DNS-over-TLS (DoT)
-* **Address:** `tls://jb1-dot.cipherdns.co.za:853`
-* **Stamp:** '' 
-
-### 2. DNS-over-HTTPS (DoH)
-* **Address:** `https://jb1-doh.cipherdns.co.za/dns-query`
-* **Stamp:** `sdns://AgcAAAAAAAAADTEwMi4yMTQuMTAuODIgsl8vNpZ_c5TwmTeIWzM_qjVtcZ_qzzjM6fA1UADz4XQXamIxLWRvaC5jaXBoZXJkbnMuY28uemEKL2Rucy1xdWVyeQ`
-
-### 3. DNS-over-QUIC (DoQ)
-* **Address:** `quic://jb1-doq.cipherdns.co.za:853`
-
-### 4. DNSCrypt
-* **Provider:** `2.dnscrypt-cert.jb1.cipherdns.co.za`
-* **Stamp:** `sdns://AQcAAAAAAAAAEjEwMi4yMTQuMTAuODI6ODQ0MyAp_ZK8Ab77yIXFI7AIeSrgjZjUJ2zG9acKC0XARJZprSMyLmRuc2NyeXB0LWNlcnQuamIxLmNpcGhlcmRucy5jby56YQ`
-
-### 5. Anonymized DNS (Relay)
-* **Stamp:** `sdns://gRIxMDIuMjE0LjEwLjgyOjg0NDM`
-
 ## ⚙️ Connection Endpoints & DNS Stamps ( CapeTown-01 )
 
 ### 1. DNS-over-TLS (DoT)
